@@ -1,0 +1,53 @@
+header {
+  height: 800px;
+  background-color: #f1f1f1;
+}
+
+main {
+  height: 1000px;
+}
+
+section {
+  height: 100%;
+  position: relative;
+}
+
+div {
+
+  width: 200px;
+  height: 200px;
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+
+div:nth-child(4) {
+  position: sticky;
+  top: 50px;
+  /* left: 50px; */
+}
+
+div:nth-child(2) {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background-color: aqua;
+}
+
+div:nth-child(3) {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  background-color: #f1f;
+}
+
+div:nth-child(5) {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  background-color: yellowgreen;
+}
+
+/* p {
+  position: sticky;
+  top: 20px;
+} */
