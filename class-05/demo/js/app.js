@@ -135,8 +135,10 @@ let studentName = ['Waleed', 'Walaa', 'Odeh', 'Thaer', 'Qusai', 'Anas', 'Mohamme
 
 // userQuestion('Whats your name?', 'Welcome to my website');
 
-function branchTest() {
+function branchTest(num1, num2) {
   console.log('we have a new branch');
+  return num1 + num2;
 }
 
-branchTest();
+branchTest(2, 13);
+console.log(branchTest(2, 13));
